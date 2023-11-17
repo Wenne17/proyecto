@@ -1,0 +1,32 @@
+body {
+        font-family: Arial, sans-serif;/*Establece la fuente "Arial", pero en el caso de que no la pueda cargar utiliza la fuente "sans-serif" por defecto*/
+        margin: 0;
+        padding: 0;/*El margin y padding elimina el espacio de margen y relleno alrededor del cuerpo de la página*/
+    	display: flex;/*Este es un sistema de diseño flexible que permite organizar y alinear elementos dentro de la página*/
+        justify-content: center;/*Este centra los elementos a lo largo del eje principal de la pagina*/
+  		background-color: #B33E00;}/*Aca se establece el color del fondo de la pagina*/
+
+.contenedor {
+            width: 70%; /*Me permite establecer un ancho del "contenedor", dependiendo del porcentaje (se puede manejar en pixeles tambien), se aleja o se acerca a los bordes*/
+            background-color: #333; /*Aca se establece el color del fondo del "contenedor*/
+            color: white; /*Aca se establece el color del texto del "contenedor"*/
+            padding: 40px}/*Este añade un relleno al rededor del "contenedor" para que no se acerce el contenido a los bordes"*/
+
+.parrafo {/*Esta clase tiene atrivutos similares a la clase "contenedor" con algunos cambios enfocados hacia los textos del contenedor*/
+        background-color: #333;
+        color: white;
+        padding: 10px}
+
+header {/*Este me permite aplicarle estilos a los encabezados*/
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;}
+
+nav li {/*Este me permite aplicarle estilos a las listas*/
+        font-size: 150%; /*Establece el tamaño de la fuente*/
+    	list-style: none;} /*Este elimina los puntos que aparecen al inicio usualmente en los elementos de la lista*/
+
+a {/*Este me permite aplicarle estilos a los enlaces*/
+    color: #FF762B; /*Establece el color de la fuetne*/
+    text-decoration: none;}/*Elimina los resaltos de los enlaces. Ejemplo: los subrayados*/
